@@ -113,48 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &145864674
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &247560018
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,8 +221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 4803135459570818, guid: 00d09b4d27586dd4480aebe025d423d1, type: 2}
-  testRows: 0
-  testCols: 0
+  testRows: 3
+  testCols: 3
+  testJewel: {fileID: 4760679642063558, guid: 24062a32c32d04a43ae6b7fba737d07c, type: 2}
 --- !u!4 &1034102684
 Transform:
   m_ObjectHideFlags: 0
